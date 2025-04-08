@@ -2,17 +2,10 @@ body {
   font-family: Verdana;
   background-color: rgb(8, 22, 83);
 }
-
-.tanque_vegano,
-.shock_vegana,
-.medico_vegano,
-.tormenta_vegana{
-  width: 200px;
-  border-width: 3px;
-  border-color: black;
-  border-style: outset;
-  border-radius: 15px;
+.Naves_insanas {
+  margin-left: 35%;
 }
+
 
 .canon,
 .recolector,
@@ -26,10 +19,10 @@ body {
 .campo_de_fuerza,
 .misiles,
 .mira_computarizada {
-   width: 20px;
-   border-width: 1px;
-   border-color: black;
-   border-style: outset;
+  width: 20px;
+  border-width: 1px;
+  border-color: black;
+  border-style: outset;
 
 
 }
@@ -45,16 +38,88 @@ body {
 #campo_de_fuerza,
 #misiles,
 #mira_computarizada {
-  margin: 20px;
+  margin: 50px;
+  border: 5px;
+  border-radius: 15px;;
+  border-style: outset;
+  background-color: rgb(136, 61, 61);
 }
 
-.lista_insana {
-  text-decoration: none;
-}
 #tanque_vega,
 #shock_vega,
 #medico_vega,
 #tormenta_vega {
   text-decoration: none;
   color: black;
+  margin-right: 30px;
+}
+#tanque_vegano,
+#shock_vegana,
+#medico_vegano,
+#tormenta_vegana {
+  margin-left: 25px;
+}
+
+#diverso {
+  border: 10px;
+  border-radius: 20px;
+  border-style: outset;
+  border-color: black;
+  background-color: silver;
+  padding: 40px;
+}
+.tanque_vegano,
+.shock_vegana,
+.medico_vegano,
+.tormenta_vegana{
+  border-width: 3px;
+  border-color: black;
+  border-style: outset;
+  border-radius: 15px;
+}
+
+.componentes_de_tanque,
+.componentes_de_shock,
+.componentes_de_medico,
+.componentes_de_tormenta {
+  border: 10px;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: black;
+  margin-right: 10px;
+  background-color: rgb(109, 105, 105);
+}
+
+.canon {
+  margin-left: 104px;}
+
+.recolector {
+  margin-left: 73px;
+}
+.reparador {
+  margin-left: 78px; 
+}
+.impulsor {
+  margin-left: 87px;
+}
+.misiles {
+  margin-left: 104px;
+}
+.escudo {
+  margin-left: 102px;
+}
+.picador {
+  margin-left: 102px
+}
+.acelerador {
+  margin-left: 73px;
+}
+.desacelerador {
+  margin-left: 46px;
+}
+.telerreparador {
+  margin-left: 40px;
+}
+.campo_de_fuerza {
+  margin-left: 19px;
 }
