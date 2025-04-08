@@ -1,0 +1,60 @@
+body {
+  font-family: Verdana;
+  background-color: rgb(8, 22, 83);
+}
+
+.tanque_vegano,
+.shock_vegana,
+.medico_vegano,
+.tormenta_vegana{
+  width: 200px;
+  border-width: 3px;
+  border-color: black;
+  border-style: outset;
+  border-radius: 15px;
+}
+
+.canon,
+.recolector,
+.reparador,
+.impulsor,
+.picador,
+.escudo,
+.acelerador,
+.desacelerador,
+.telerreparador,
+.campo_de_fuerza,
+.misiles,
+.mira_computarizada {
+   width: 20px;
+   border-width: 1px;
+   border-color: black;
+   border-style: outset;
+
+
+}
+#canon,
+#recolector,
+#reparador,
+#impulsor,
+#escudo,
+#picador,
+#acelerador,
+#desacelerador,
+#telerreparador,
+#campo_de_fuerza,
+#misiles,
+#mira_computarizada {
+  margin: 20px;
+}
+
+.lista_insana {
+  text-decoration: none;
+}
+#tanque_vega,
+#shock_vega,
+#medico_vega,
+#tormenta_vega {
+  text-decoration: none;
+  color: black;
+}
